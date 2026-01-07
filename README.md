@@ -2,7 +2,8 @@
 
 A tailwind CSS inspired color scheme for Neovim/Vim, designed to provide a visually appealing and consistent coding experience. 
 
-![tailwind-theme](./imgs/tailwind-theme.png =100x200)
+## Preview
+<img src="./imgs/tailwind-theme.png " alt="Preview" width="500" height="300">
 
 ## Installation
 
