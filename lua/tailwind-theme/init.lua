@@ -97,7 +97,7 @@ function M.setup(opts)
     vim.cmd('syntax reset')
   end
 
-  vim.g.colors_name = 'mapledark'
+  vim.g.colors_name = 'tailwind-theme'
   vim.o.background = 'dark'
   vim.o.termguicolors = true
 
@@ -458,7 +458,7 @@ function M.load_plugin_highlights(plugins)
   -- Lazy load plugin highlights
   vim.defer_fn(function()
     local c = get_colors()
-    require('mapledark.plugins').setup(c, plugins, _cache.plugins_loaded)
+    require('tailwind-theme.plugins').setup(c, plugins, _cache.plugins_loaded)
   end, 0)
 end
 
@@ -469,7 +469,7 @@ function M.load_plugin(plugin_name)
   end
 
   local c = get_colors()
-  local plugins = require('mapledark.plugins')
+  local plugins = require('tailwind-theme.plugins')
 
   if plugins.loaders[plugin_name] then
     plugins.loaders[plugin_name](c)
