@@ -203,7 +203,7 @@ function M.setup(opts)
   hl('Boolean', { fg = c.fg })
   hl('Float', { fg = c.fg })
 
-  hl('Identifier', { fg = c.accent })
+  hl('Identifier', { fg = c.fg })
   hl('Function', { fg = c.blue })
 
   hl('Statement', { fg = c.accent, italic = true })
