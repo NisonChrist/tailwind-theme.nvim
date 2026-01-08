@@ -314,8 +314,8 @@ function M.setup(opts)
   hl('@variable.member', { fg = c.blue })
 
   -- Constants
-  hl('@constant', { fg = c.fg })
-  hl('@constant.builtin', { fg = c.fg })
+  hl('@constant', { fg = c.accent })
+  hl('@constant.builtin', { fg = c.accent })
   hl('@constant.macro', { fg = c.cyan })
   hl('@module', { fg = c.fg })
   hl('@module.builtin', { fg = c.fg })
