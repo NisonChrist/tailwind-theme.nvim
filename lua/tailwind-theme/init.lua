@@ -197,13 +197,13 @@ function M.setup(opts)
   hl('SpecialComment', { fg = c.cyan, italic = true })
 
   hl('Constant', { fg = c.orange })
-  hl('String', { fg = c.green })
+  hl('String', { fg = c.fg })
   hl('Character', { fg = c.green })
   hl('Number', { fg = c.orange })
   hl('Boolean', { fg = c.orange })
   hl('Float', { fg = c.orange })
 
-  hl('Identifier', { fg = c.fg })
+  hl('Identifier', { fg = c.accent })
   hl('Function', { fg = c.blue })
 
   hl('Statement', { fg = c.accent, italic = true })
@@ -220,14 +220,14 @@ function M.setup(opts)
   hl('Macro', { fg = c.cyan })
   hl('PreCondit', { fg = c.cyan })
 
-  hl('Type', { fg = c.yellow })
+  hl('Type', { fg = c.accent })
   hl('StorageClass', { fg = c.accent, italic = true })
   hl('Structure', { fg = c.accent })
   hl('Typedef', { fg = c.accent, italic = true })
 
   hl('Special', { fg = c.cyan })
   hl('SpecialChar', { fg = c.accent })
-  hl('Tag', { fg = c.yellow })
+  hl('Tag', { fg = c.accent })
   hl('Delimiter', { fg = c.accent })
   hl('Debug', { fg = c.red })
 
