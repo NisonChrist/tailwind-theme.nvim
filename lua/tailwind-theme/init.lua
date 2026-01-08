@@ -379,9 +379,9 @@ function M.setup(opts)
   hl('@attribute.builtin', { fg = c.cyan })
 
   -- Properties and fields
-  hl('@property', { fg = c.red })
-  hl('@field', { fg = c.red })
-  hl('@parameter', { fg = c.red })
+  hl('@property', { fg = c.blue })
+  hl('@field', { fg = c.blue })
+  hl('@parameter', { fg = c.blue })
 
   -- Comments
   hl('@comment', { fg = c.fg_dark, italic = true })
