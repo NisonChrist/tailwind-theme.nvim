@@ -228,7 +228,7 @@ function M.setup(opts)
   hl('Special', { fg = c.cyan })
   hl('SpecialChar', { fg = c.accent })
   hl('Tag', { fg = c.accent })
-  hl('Delimiter', { fg = c.accent })
+  hl('Delimiter', { fg = c.fg })
   hl('Debug', { fg = c.red })
 
   hl('Underlined', { fg = c.blue, underline = true })
@@ -420,10 +420,10 @@ function M.setup(opts)
   hl('@markup.list.unchecked', { fg = c.fg_dark })
 
   -- Tags (HTML, JSX, etc.)
-  hl('@tag', { fg = c.cyan })
-  hl('@tag.builtin', { fg = c.cyan })
+  hl('@tag', { fg = c.accent })
+  hl('@tag.builtin', { fg = c.accent })
   hl('@tag.attribute', { fg = c.yellow })
-  hl('@tag.delimiter', { fg = c.accent })
+  hl('@tag.delimiter', { fg = c.fg })
 
   -- Diff
   hl('@diff.plus', { fg = c.green })
