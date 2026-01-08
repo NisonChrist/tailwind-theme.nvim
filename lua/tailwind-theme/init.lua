@@ -308,17 +308,17 @@ function M.setup(opts)
 
   -- Variables
   hl('@variable', { fg = c.fg })
-  hl('@variable.builtin', { fg = c.orange, italic = true })
-  hl('@variable.parameter', { fg = c.red })
-  hl('@variable.parameter.builtin', { fg = c.orange })
-  hl('@variable.member', { fg = c.red })
+  hl('@variable.builtin', { fg = c.fg, italic = true })
+  hl('@variable.parameter', { fg = c.fg })
+  hl('@variable.parameter.builtin', { fg = c.fg })
+  hl('@variable.member', { fg = c.blue })
 
   -- Constants
-  hl('@constant', { fg = c.orange })
-  hl('@constant.builtin', { fg = c.orange })
+  hl('@constant', { fg = c.fg })
+  hl('@constant.builtin', { fg = c.fg })
   hl('@constant.macro', { fg = c.cyan })
-  hl('@module', { fg = c.cyan })
-  hl('@module.builtin', { fg = c.orange })
+  hl('@module', { fg = c.fg })
+  hl('@module.builtin', { fg = c.fg })
 
   -- Strings
   hl('@string', { fg = c.green })
@@ -333,9 +333,9 @@ function M.setup(opts)
   -- Characters and Numbers
   hl('@character', { fg = c.green })
   hl('@character.special', { fg = c.cyan })
-  hl('@number', { fg = c.orange })
-  hl('@number.float', { fg = c.orange })
-  hl('@boolean', { fg = c.orange })
+  hl('@number', { fg = c.fg })
+  hl('@number.float', { fg = c.fg })
+  hl('@boolean', { fg = c.fg })
 
   -- Functions
   hl('@function', { fg = c.blue })
