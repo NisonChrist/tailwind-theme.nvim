@@ -1,9 +1,6 @@
 # Tailwind theme for Neovim/Vim
 
-A tailwind CSS inspired color scheme for Neovim/Vim, designed to provide a visually appealing and consistent coding experience. 
-
->[!CAUTION]
-> This theme is currently in active development. Expect frequent updates and changes.
+A tailwind CSS inspired color scheme for Neovim/Vim, designed to provide a visually appealing and consistent coding experience.
 
 ## Preview
 <img src="./imgs/tailwind-theme.png" alt="Preview" width="500" height="300">
