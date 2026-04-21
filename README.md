@@ -7,6 +7,18 @@ A tailwind CSS inspired color scheme for Neovim/Vim, designed to provide a visua
 
 ## Installation
 
+### Using [vim.pack](https://neovim.io/doc/user/pack/)
+
+```lua
+vim.pack.add({
+    { src = 'https://github.com/nisonchrist/tailwind-theme.nvim' }
+})
+require('tailwind-theme').setup({
+    -- Add more options ...
+})
+vim.cmd.colorscheme('tailwind-theme')
+```
+
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
